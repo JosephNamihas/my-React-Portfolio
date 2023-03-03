@@ -1,0 +1,33 @@
+#about-me {
+    margin-left: var(--margin-width);
+  }
+  
+  .header-aboutme {
+    display: block;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding-right: 5%;
+    border-left: 2px solid black;
+  }
+  
+  .aboutme-bio {
+    display: flex;
+  }
+  
+  .aboutme-picture {
+    display: flex;
+    border: 2px solid black;
+  }
+  
+  hr {
+    border: 1rem solid #8ecae6;
+    border-radius: 20px;
+    margin-left: 20%;
+}
