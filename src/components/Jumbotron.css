@@ -1,0 +1,10 @@
+.jumbotron-fluid {
+    background-color: #8ecae6;
+    color: #023e8a;
+    border-top:2px solid #023e8a;
+    border-bottom: 2px solid #023e8a;
+  }
+  
+  .display-1 {
+    font-style: bold; 
+  }

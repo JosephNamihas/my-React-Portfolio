@@ -1,0 +1,12 @@
+.customNav {
+    background-color: silver;
+    border-bottom: 2px solid var(--color-scheme-dark-blue);
+  }
+  
+  .btn {
+    border: 1px solid white;
+  }
+  
+  .btn:hover {
+    box-shadow: 2px 4px black;
+  }
