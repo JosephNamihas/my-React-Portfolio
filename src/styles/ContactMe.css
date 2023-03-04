@@ -1,0 +1,17 @@
+#contact-me {
+    text-align: left;
+    margin-left: 0% !important;
+  } 
+  
+  .fab:hover , .fa:hover {
+    color: var(--color-scheme-dark-blue);
+  }
+  
+  .fa-free-code-camp:hover {
+    color: white !important;
+  }
+
+  i {
+    font-size: 80px;
+    padding-right: 10px;
+  }

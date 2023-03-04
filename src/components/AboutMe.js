@@ -1,4 +1,5 @@
 import React from "react";
+import myPicture from '../images/joseph_namihas.PNG';
 
 function AboutMe() {
 
@@ -12,7 +13,7 @@ function AboutMe() {
             If you would like to work with me, please see my social media links at the bottom of the page
           </p>
           </div>
-          <div class="aboutme-picture"><img src="images/joseph-namihas-400x400.jpg" alt="My picture"></img>
+          <div className="aboutme-picture"><img src={myPicture} alt="Joe Namihas"></img>
           </div>
         </div>
       </section>

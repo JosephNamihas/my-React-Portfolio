@@ -4,6 +4,7 @@
   
   .header-aboutme {
     display: block;
+    font-weight: bold;
   }
   
   .flex-container {
@@ -25,9 +26,3 @@
     display: flex;
     border: 2px solid black;
   }
-  
-  hr {
-    border: 1rem solid #8ecae6;
-    border-radius: 20px;
-    margin-left: 20%;
-}
