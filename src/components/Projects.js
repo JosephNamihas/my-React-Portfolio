@@ -1,5 +1,8 @@
 import React from "react";
 import cocktailProject from '../images/cocktail-project.PNG';
+import gitHub from '../images/github.png';
+import workDay from '../images/workday-planner.PNG';
+import readMe from '../images/readme-generator.jpg';
 
 function Projects() {
     return (
@@ -24,7 +27,7 @@ function Projects() {
           <div className="row">
             <div className="col"> 
               <div className="card">
-                {/*<img className="card-img-top" src="" alt="'Project #2"> </img> */}
+              <img className="card-img-top" src={gitHub} alt="GitHub Profile"></img>
                   <div className="card-body">
                     <h5 className="card-title">GitHub</h5>
                     <p className="card-text">The home of all my projects, contributions and code snippets</p>
@@ -39,10 +42,11 @@ function Projects() {
           <div className="row">
             <div className="col"> 
               <div className="card">
-                {/*<img className="card-img-top" src="" alt="Project #3"></img>*/}
+                <img className="card-img-top" src={workDay} alt="Workday Planner"></img>
                   <div className="card-body">
-                    <h5 className="card-title">In Progress</h5>
-                    <p className="card-text">Project in Progress</p>
+                    <h5 className="card-title">Workday Planner</h5>
+                    <p className="card-text">A handy planner which utilises local storage to keep your day on track</p>
+                    <a href="https://github.com/JosephNamihas/Daily-Planner" className="btn btn-primary">Go to Project</a>
                   </div>
                </div>
             </div>
@@ -53,10 +57,11 @@ function Projects() {
           <div className="row">
             <div className="col"> 
               <div className="card">
-                {/*<img className="card-img-top" src="" alt="Project"></img>*/}
+                <img className="card-img-top" src={readMe} alt="ReadME Generator"></img>
                   <div className="card-body">
-                    <h5 className="card-title">In Progress</h5>
-                    <p className="card-text">Project in Progress</p>
+                    <h5 className="card-title">ReadME Generator</h5>
+                    <p className="card-text">A Node.js command line application, utlising inquirier to generate a README for your projects</p>
+                    <a href="https://github.com/JosephNamihas/README-Generator" className="btn btn-primary">Go to Project</a>
                   </div>
                </div>
             </div>
