@@ -4,7 +4,6 @@ import ContactMe from './components/ContactMe';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
-import './styles/ContactMe.css';
 import './styles/Jumbotron.css';
 import './styles/NavBar.css';
 import './styles/AboutMe.css';
@@ -20,24 +19,25 @@ function App() {
     <div>
       <NavBar />
       <Jumbotron />
-      <Footer />
-      <hr></hr>
-  
-
       <AboutMe />
       <Footer />
       <hr></hr>
-  
+
+      <NavBar />
+      <Jumbotron />
       <ContactMe />
       <Footer />
+
       <hr></hr>
+      <NavBar />
+      <Jumbotron />
       <Projects />
      <Footer />
     </div>
   );
 }
 
-// Two Pages - Contact Me, Project Gallery
+// Three Pages - About Me, Contact Me, Project Gallery
 
 export default App;
 
