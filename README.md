@@ -18,6 +18,7 @@ Making sure the groundwork is layed so each component gets the necessary data to
 ## Installation
 
 Run the website by following the GitGub Pages link: 
+https://josephnamihas.github.io/my-React-Portfolio/
 
 ## Useage
 
@@ -26,6 +27,7 @@ Run the website by following the GitGub Pages link:
 ## Credits
 
 - https://www.w3schools.com/REACT/DEFAULT.ASP
+- https://github.com/gitname/react-gh-pages
 
 
 ## License 

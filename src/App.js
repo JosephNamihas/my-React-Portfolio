@@ -30,8 +30,10 @@ function App() {
   return (
 <div>
     <Router>
+      
     <NavBar />
     <Jumbotron />
+    <AboutMe />
 
       <Routes>
         <Route path ="/" element ={<AboutMe />} />
