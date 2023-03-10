@@ -11,6 +11,7 @@ import './styles/NavBar.css';
 import './styles/AboutMe.css';
 import './styles/Footer.css';
 import './styles/Projects.css';
+import './styles/ContactMe.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -27,20 +28,24 @@ function App() {
   //setMyStateVariable({})
 
   return (
+<div>
     <Router>
-    
-    <div>
-      
-      <NavBar />
+    <NavBar />
+    <Jumbotron />
 
-      <hr></hr>
       <Routes>
         <Route path ="/" element ={<AboutMe />} />
         <Route path ="ContactMe" element ={<ContactMe />} />
         <Route path ="Projects" element = {<Projects />} />
+
       </Routes>
+
+      <Projects />
+      <ContactMe />
+      <Footer />
+     </Router> 
     </div>
-    </Router>
+    
   );
 }
 // Router allows a specific URL bring up a component.
@@ -51,11 +56,3 @@ function App() {
 
 export default App;
 
-// Finish Project Section
-// Add ContactMe to App
-
-
-// When to use React?
-// When we go away after this bootcamp and do our own projects, when should you create React Apps? When it's going to be UI intensive or does it become the norm?
-// What backend technologies do you use?
-// 

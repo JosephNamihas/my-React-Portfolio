@@ -6,7 +6,6 @@ function ContactMe() {
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">Contact Me</h1>
-          //TODO Contact Form here
           <div className="social-icons">
             <a href="https://twitter.com/JoeNamihas" alt="Twitter">
               <i className="fab fa-twitter" alt="Twitter"></i>

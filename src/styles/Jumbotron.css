@@ -3,15 +3,19 @@
     color: #023e8a;
     border-top:2px solid #023e8a;
     border-bottom: 2px solid #023e8a;
-    height: 60vh;
+    height: 30vh;
   }
 
   .display-1 {
     font-style: bold; 
   }
-  
 
+  .display-4 {
+    font-style: bold;
+    font-size: 10rem;
+  }
 
+.lead {
+  text-align: left;
+}
 
-
-  /* Set the h1 and p to be left center of the Jumbotron. */ 
